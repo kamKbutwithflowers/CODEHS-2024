@@ -1,0 +1,11 @@
+function start() {
+    if (frontIsBlocked()){
+        turnLeft();
+        move();
+    } else {
+        move();
+    }
+}
+function main() {
+    main();
+}
