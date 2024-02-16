@@ -1,0 +1,21 @@
+function start(){
+    makePancakes();
+    main();
+    move();
+    makePancakes();
+    main();
+    move();
+    move();
+    main();
+    makePancakes();
+}
+   
+    
+function main(){
+    putBall();
+    putBall();
+    putBall();
+}
+function makePancakes(){
+    move();
+}
