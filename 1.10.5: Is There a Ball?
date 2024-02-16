@@ -1,0 +1,15 @@
+function start() {
+    hasBallTrue();
+    main();
+    move();
+}
+function hasBallTrue(){
+    if (ballsPresent()){
+        
+    }
+}
+function main(){
+    if (noBallsPresent()){
+        putBall();
+    }
+}
