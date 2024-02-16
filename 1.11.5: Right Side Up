@@ -1,0 +1,9 @@
+function main(){
+	if(frontIsBlocked()){
+	    turnLeft();
+	}
+	if(frontIsBlocked()){
+	    turnLeft();
+	}
+}
+main();
