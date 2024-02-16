@@ -1,0 +1,14 @@
+function main() {
+    for(let i=0; i<4; i++){
+        move5();
+        putBall();
+        turnLeft();
+    }
+}
+function move5() {
+    for(let i = 0; i<5; i++){
+        move();
+    }
+}
+
+main();
