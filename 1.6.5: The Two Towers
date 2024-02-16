@@ -1,0 +1,38 @@
+function start(){
+    main();
+    putPancakes();
+    goBack();
+    putPancakes();
+    move();
+    turnRight();
+}
+
+function main(){
+    move();
+    turnLeft();
+}
+
+function putPancakes(){
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+}
+
+function goBack(){
+    turnRight();
+    move();
+    turnRight();
+    move();
+    move();
+    turnLeft();
+    move();
+    turnLeft();
+}
+
+function turnRight(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
